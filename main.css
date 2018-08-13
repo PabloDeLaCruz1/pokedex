@@ -1,0 +1,31 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../personal-pokedex/images/pokemon_twitch_theme.gif")
+}
+
+@font-face {
+    src: url("./jackster-productions_pokemon-gb/Pokemon\ GB.ttf");
+    font-family: pokeFont;
+}
+p {
+    font-family: pokeFont;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 40px;
+    font-size: 4vmin
+    
+}
+
+#pokemon-container {
+    top: 3.30%;
+    left: 1.7%;
+    background-image: url("images/grassland-background.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 81.2vh;
+    width: 61vw;
+}
