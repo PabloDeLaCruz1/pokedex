@@ -1,0 +1,22 @@
+{
+  "name": "personal-pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloDeLaCruz1/pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloDeLaCruz1/pokedex/issues"
+  },
+  "homepage": "https://github.com/PabloDeLaCruz1/pokedex#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

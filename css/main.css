@@ -1,0 +1,151 @@
+body {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    /* background-image: url("./css/personal-pokedex/images/pokemon_twitch_theme.png") */
+}
+
+@font-face {
+    src: url("./css/jackster-productions_pokemon-gb/Pokemon\ GB.ttf");
+    font-family: pokeFont;
+}
+
+p {
+    font-family: pokeFont;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 40px;
+    font-size: 4vmin;
+}
+
+.mainRow {
+    background-color: #f2f;
+    height: 100%;
+}
+
+.cardImage {
+    height: 100%;
+}
+
+/* Pokeball */
+
+#pokeBall {
+    position: relative;
+    left: 23vw;
+    width: 50vw;
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 20px;
+    background-image: url("https://img00.deviantart.net/9d85/i/2014/041/a/0/pokeball_by_dynamicz34-d75w5ss.png")
+}
+
+#ballTop {
+    position: relative;
+    width: 97%;
+    height: 49vh;
+    left: 33px;
+    background-color: aqua
+}
+
+#ballBotLeft {
+    position: relative;
+    height: 50%;
+    left: 20px;
+    background-color: #f2f
+}
+
+#ballBotMid {
+    position: relative;
+    background-color: #f2f;
+    height: 40%;
+    width: 20%;
+    margin-right: 20px;
+    margin-left: 60px;
+    bottom: 68px;
+    left: 8px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+#ballBotRight {
+    position: relative;
+    background-color: #f2f;
+    height: 50%;
+}
+
+#pokemon-container>img {
+    top: 30%;
+    left: 30%;
+    position: relative;
+    height: 30vh;
+    width: 25vw;
+}
+
+#pokedex-chat {
+    position: absolute;
+    top: 56%;
+    left: 74%;
+    height: 41vh;
+    width: 24vw;
+    /* background-color: black; */
+    /* opacity: .5; */
+}
+
+#pokedex-chat>p {
+    font-family: pokeFont;
+    color: aliceblue;
+    font-size: 16px;
+    top: -2%;
+    left: 5%;
+    opacity: .6;
+    /* background-color: blue; */
+    height: 38vh;
+    width: 22vw;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid white; */
+    /* The typwriter cursor */
+    /* white-space: nowrap; */
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    padding: 2px;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    /* animation: typing 3.5s steps(40, end), blink-caret .75s step-end ; */
+}
+
+/* Flash effects for random background sections */
+
+#flashit1 {
+    position: absolute;
+    height: 5vh;
+    width: 3vw;
+    top: 37.5%;
+    left: 75.4%;
+    background-color: lightcoral;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 39px;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+}
+
+.flashit {
+    color: #f2f;
+    animation: flash linear 1.5s infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .1;
+    }
+    100% {
+        opacity: .9;
+    }
+}
