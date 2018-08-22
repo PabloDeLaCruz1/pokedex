@@ -11,6 +11,13 @@ body {
     font-family: pokeFont;
 }
 
+.card-title-style {
+    color: black !important;
+    text-shadow: 2px 2px 5px white !important;
+    font-size: 40px !important;
+    font-weight: bolder;
+}
+
 p {
     font-family: pokeFont;
     position: absolute;
@@ -25,7 +32,7 @@ p {
     height: 100%;
 }
 
-.cardImage {
+.cardImage>img {
     height: 100%;
 }
 
@@ -148,4 +155,28 @@ p {
     100% {
         opacity: .9;
     }
+}
+
+tbody,
+tbody1,
+tbody2,
+tbody3 {
+    display: block;
+    height: 53px;
+    overflow: auto;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    width: calc( 100% - 1em)
+}
+
+table {
+    width: 100%;
 }
